@@ -37,11 +37,3 @@ jobs:
       # 5. Run Jest tests with coverage
       - name: Run Jest tests
         run: npm test -- --coverage
-
-      # 6. Upload coverage (optional)
-      - name: Upload coverage
-        if: always()
-        uses: actions/upload-artifact@v3
-        with:
-          name: coverage-report
-          path: coverage
