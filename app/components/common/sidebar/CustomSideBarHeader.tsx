@@ -1,5 +1,5 @@
 import { SidebarHeader, SidebarMenuButton } from "@/components/ui/sidebar";
-import { ChevronUp, User2 } from "lucide-react";
+import { User2 } from "lucide-react";
 
 export default function CustomSideBarHeader(){
     return (

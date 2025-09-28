@@ -21,8 +21,7 @@ A modern, opinionated **dashboard frontend boilerplate** built with:
 - 🔑 **Authentication ready** — Easily integrate Clerk, Auth.js, or your own solution  
 - 📐 **Scalable folder structure** — Clean, maintainable, and production-ready  
 - ✅ **TypeScript-first** — Strict types for reliability  
+- 🧪 **Jest testing environment** — Node-only, V8 coverage, fully TypeScript-compatible  
+- 🔧 **Linting & formatting** — ESLint + Prettier configured for clean, consistent code  
 
 ---
-
-## 🗂 Folder Structure (Example)
-
