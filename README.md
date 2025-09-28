@@ -1,37 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧩 Next.js Dashboard Boilerplate
 
-## Getting Started
+A modern, opinionated **dashboard frontend boilerplate** built with:
 
-First, run the development server:
+- **Next.js (App Router)** — Fast, server-side rendering & routing  
+- **shadcn/ui + TailwindCSS** — Beautiful, accessible UI components  
+- **React Query** — Data fetching, caching & server state management  
+- **Theme Toggle (Dark/Light)** — Ready-to-use theme switching  
+- **Sidebar Layout** — Responsive sidebar with easy navigation  
+- **State Management (Zustand)** — Simple client-side state handling (optional)  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ⚡ **Next.js App Router** — Uses server components and client components where needed  
+- 🎨 **shadcn/ui components** — Cards, buttons, alerts, skeletons, etc.  
+- 🌓 **Theme toggle** — Dark and light modes out of the box  
+- 📦 **React Query integration** — API fetching and caching done right  
+- 🗂 **Sidebar layout** — Responsive and extendable  
+- 🔑 **Authentication ready** — Easily integrate Clerk, Auth.js, or your own solution  
+- 📐 **Scalable folder structure** — Clean, maintainable, and production-ready  
+- ✅ **TypeScript-first** — Strict types for reliability  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🗂 Folder Structure (Example)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# nextjs-boiler-plate
