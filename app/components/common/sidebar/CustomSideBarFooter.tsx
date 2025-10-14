@@ -1,4 +1,5 @@
 import { SidebarFooter, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from "@/components/ui/sidebar";
+import { SignOutButton } from "@clerk/nextjs";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu";
 import { ChevronUp, User2 } from "lucide-react";
 
@@ -25,7 +26,7 @@ export default function CustomSideBarFooter(){
                   <span>Billing</span>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <span>Sign out</span>
+                  <SignOutButton/>
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
