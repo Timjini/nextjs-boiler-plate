@@ -1,11 +1,10 @@
 import { SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from "@/components/ui/sidebar";
-import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
+import { Calendar, CreditCard, Home, Inbox, Search, Settings, SubscriptIcon } from "lucide-react"
 
-// Example items 
 const items = [
     {
       title: "Home",
-      url: "#",
+      url: "/",
       icon: Home,
     },
     {
@@ -14,8 +13,8 @@ const items = [
       icon: Inbox,
     },
     {
-      title: "Calendar",
-      url: "#",
+      title: "Experiences",
+      url: "/experiences",
       icon: Calendar,
     },
     {
@@ -24,8 +23,13 @@ const items = [
       icon: Search,
     },
     {
+      title: "Subscription",
+      url: "/pricing/subscription-details",
+      icon: CreditCard,
+    },
+    {
       title: "Settings",
-      url: "#",
+      url: "/settings",
       icon: Settings,
     },
   ]
